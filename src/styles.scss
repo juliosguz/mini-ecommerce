@@ -1,7 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/purple-green.css";
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   background-color: #303030;
   color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  &__field {
+  }
 }
